@@ -1,0 +1,79 @@
+h1 {
+  color:#494949;
+text-align:center;
+margin: 40px;
+font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+  margin:0px;
+}
+
+h3 {
+  margin:0px;
+}
+
+.big-box {
+  background-image:url(laptops.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center;
+  padding: 40px; 
+  border-radius: 50px;
+  height: 600px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.first-box {
+  color: #494949; 
+  background-color:#ffffff;
+  padding: 30px;
+  width: 600px;
+  border-radius: 25px;
+  height: fit-content;
+  margin-top: 100px;
+}
+.second-box {
+  color: #494949; 
+  background-color: #ffffff;
+  padding: 30px;
+  width: 300px;
+  border-radius: 25px;
+  height: fit-content;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+ul { margin-top: 0px;
+}
+
+ul li{
+ margin-top: 10px;
+}
+
+a:link {
+  color: rgb(206, 151, 0);
+}
+
+a:visited {
+  color: rgb(206, 159, 199);
+}
+
+a:hover {
+  color: rgb(241, 105, 173);
+}
+
+a:active {
+  color: rgb(77, 238, 198);
+}
+  
+
+
